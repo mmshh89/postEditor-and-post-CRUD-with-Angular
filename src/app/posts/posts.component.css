@@ -1,0 +1,16 @@
+.post {
+    padding: 7px 95px;
+}
+
+.buts {
+    direction: ltr;
+    padding-left: 19px;
+}
+
+.buts button {
+    margin: 7px;
+}
+
+.wholePost {
+    border-bottom: 1px solid #aaa;
+}

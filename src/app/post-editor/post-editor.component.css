@@ -1,0 +1,43 @@
+#textEditor {
+    border: 1px solid #ddd;
+    padding: 5px;
+    min-width: 561px;
+    max-width: 561px;
+    min-height: 221px;
+    max-height: 221px;
+    overflow: auto;
+}
+
+select {
+    margin-left: 4px;
+}
+
+#file {
+    width: 90px;
+}
+#file::-webkit-file-upload-button {
+    /* cursor: pointer; */
+    /* border: 1px solid #000; */
+    /* border-radius: 3px; */
+    background: gold;
+    margin-left: 4px;
+    content: "hello";
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.postContainer {
+    display: inline-block;
+    /* border: 1px solid #999; */
+    padding: 5px 4px 0 41px;
+    border-radius: 5px;
+}
+
+.editorHead {
+    border: 1px solid #ddd;
+    padding-top: 5px;
+}
+
+.saveBut {
+    direction: rtl;
+}

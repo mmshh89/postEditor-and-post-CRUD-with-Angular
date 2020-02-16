@@ -1,0 +1,12 @@
+<div>
+    <div *ngFor="let post of posts" [ngStyle]="{'direction': post.direction, 'margin-bottom': '39px'}">
+        <div class="wholePost">
+                    <p class="post" [innerHTML]="post.postInnerHtml"></p>
+        <div class="buts">
+            <button (click)="editPost(post.id)">edit post</button>
+            <button (click)="deletePost(post)">delete post</button>
+            <button (click)="goToThePost(post.id)">view post</button>
+        </div>
+        </div>
+    </div>
+</div>

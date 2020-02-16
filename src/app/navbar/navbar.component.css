@@ -1,0 +1,33 @@
+.navbar {
+    background: #eee;
+}
+
+.nav {
+    margin: 0;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 9px 0px #909090;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 14px 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+.router-link-active {
+    /* color: #a24d24; */
+    color: #555;
+    text-decoration: underline !important;
+}

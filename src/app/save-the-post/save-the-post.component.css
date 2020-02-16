@@ -1,0 +1,10 @@
+.thePost {
+    margin: 22px 51px;
+    padding: 14px 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+.saveBut {
+    margin: 0 78px;
+    direction: rtl;
+}
